@@ -1,69 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio de RAFAEL DAVID RINCON VILLAMIZAR</title>
-  <link rel="stylesheet" href="estilos.css">
-  <script src="formulario-contacto.js"></script>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <h1>RAFAEL DAVID RINCON VILLAMIZAR</h1>
-    <nav>
-      <ul>
-        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Mi Portafolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="acerca-de-mi">
-      <h2>Acerca de mí</h2>
-      <p>Magister en Ingeniería, Especialista en gestión de sistemas de Potencia, Ingeniero Eléctrico e Ingeniero en Telecomunicaciones con amplia experiencia como Lider de Proyectos, habilidades en todas las etapas de maduración, planeación, diseño, ejecución e interventoria de proyectos, hasta las fases de comisionamiento, pruebas y puesta en marcha.
-      Comunicación asertiva para gestionar interesados, con experticia en el control de riesgos, y el manejo de las las dependencias, el flujo óptimo de trabajo integralmente.
-        Amplios conocimientos en Lenguajes de Programación: Python, Javascript, software especializados de electricidad, comunicaciones, automatización industrial avanzada.
-        Ciencia de Datos e Inteligencia Artificial
-      </p>
+    <section id="about">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <p>Soy Magister en Ingeniería, Especialista en gestión de sistemas de Potencia, Ingeniero Eléctrico e Ingeniero en Telecomunicaciones con amplia experiencia como Lider de Proyectos, habilidades en todas las etapas de maduración, planeación, diseño, ejecución e interventoria de proyectos, hasta las fases de comisionamiento, pruebas y puesta en marcha. Comunicación asertiva para gestionar interesados, con experticia en el control de riesgos, y el manejo de las las dependencias, el flujo óptimo de trabajo integralmente. Amplios conocimientos en Lenguajes de Programación: Python, Javascript, software especializados de electricidad, comunicaciones, automatización industrial avanzada. Ciencia de Datos e Inteligencia Artificial</p>
+      </div>
     </section>
 
-    <section id="Proyectos">
-      <h2>Proyectos</h2>
-      <ul>
-        <li>
-          <h3>Proyectos de Infraestructura</h3>
-          <p>Coordinación Técnica de Proyectos de Infraestructura de interés nacional e internacional</p>
-          <a href="enlace-al-proyecto" target="_blank">Ver proyecto</a>
-        </li>
-        <li>
-          <h3>Planta de Potabilización PTAP El Cerro</h3>
-          <p>La Planta que abastece el servicio de Agua Potable a la Cartagena de 2 Millones de Habitantes. imagen.</p>
-          <a href="enlace-al-proyecto" target="_blank">Ver proyecto</a>
-        </li>
-        <!-- Añade más proyectos si lo deseas -->
-      </ul>
+    <section id="services">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <h3>Proyectos de Infraestructura </h3>
+            <p>Coordinación Técnica de Proyectos de Infraestructura de interés nacional e internacional.</p>
+          </li>
+          <li>
+            <h3>Planta PTAP El Cerro</h3>
+            <p>La Planta que abastece el servicio de Agua Potable a la Cartagena de 2 Millones de Habitantes. imagen..</p>
+          </li>
+          <li>
+            <h3>Optimización del rendimiento</h3>
+            <p>Optimización del rendimiento de los sitios web, incluyendo la reducción del tamaño de los archivos, la optimización de las imágenes y la implementación de técnicas de caché.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto:</h2>
-
-      <form id="formulario-contacto">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required><br>
-
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" required></textarea><br>
-
-      <button id="enviar-correo">Enviar correo</button>
-      </form>
-
+    <section id="contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>Derechos reservados &copy; Rafael David Rincon Villamizar [2023]</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
