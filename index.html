@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de [Tu nombre completo]</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Portafolio de [Tu nombre completo]</h1>
+    <nav>
+      <ul>
+        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="acerca-de-mi">
+      <h2>Acerca de mí</h2>
+      <p>Introduce aquí una breve descripción sobre ti, tus habilidades y tu experiencia profesional.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <ul>
+        <li>
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto 1. Incluye una imagen si es posible.</p>
+          <a href="enlace-al-proyecto" target="_blank">Ver proyecto</a>
+        </li>
+        <li>
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve del proyecto 2. Incluye una imagen si es posible.</p>
+          <a href="enlace-al-proyecto" target="_blank">Ver proyecto</a>
+        </li>
+        <!-- Añade más proyectos si lo deseas -->
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="enviar-correo.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos reservados &copy; [Tu nombre completo] [Año actual]</p>
+  </footer>
+</body>
+</html>
