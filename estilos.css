@@ -1,127 +1,75 @@
-/* Estilos globales */
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.5;
-}
-
-h1, h2, h3 {
-  font-weight: normal;
-  margin-top: 0;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Estilos específicos */
-
+/* Estilos para el encabezado */
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
+header h1 {
+  margin: 0;
 }
 
-nav ul li {
-  margin-right: 20px;
+/* Estilos para la sección de servicios */
+#services {
+  padding: 50px;
+  background-color: #f7f7f7;
 }
 
-nav a {
-  font-weight: bold;
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
+.service {
+  background-color: #fff;
   padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-section h2 {
-  font-size: 24px;
   margin-bottom: 20px;
 }
 
-section ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-section li {
-  margin-right: 20px;
-  margin-bottom: 20px;
-  flex-basis: calc(33.33% - 20px);
-}
-
-section li h3 {
+.service h2 {
   margin-top: 0;
 }
 
-section li p {
-  margin-bottom: 10px;
+.service p {
+  margin-bottom: 0;
 }
 
-section li a {
-  display: block;
+/* Estilos para el formulario de contacto */
+#contacto {
+  padding: 50px;
   background-color: #333;
   color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
 }
 
-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+.form-group {
   margin-bottom: 20px;
 }
 
-form textarea {
-  height: 100px;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-form button[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.btn-enviar {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
-footer {
-  text-align: center;
-  background-color: #eee;
-  padding: 20px;
-  margin-top: 40px;
+.btn-enviar:hover {
+  background-color: #333;
+  color: #fff;
 }
