@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 header {
-  background-color: #3f3434;
+  background-color: #000000;
   color: #ffffff;
   padding: 20px;
 }
@@ -12,7 +12,7 @@ header h1 {
 /* Estilos para la sección de servicios */
 #Proyectos {
   padding: 50px;
-  background-color: #f55e5e;
+  background-color: #f3f3f3e5e;
 }
 
 .service {
@@ -36,7 +36,7 @@ header h1 {
 }
 
 .mitad {
-  background-color: #c0b1b1;
+  background-color: #f3f3f3;
   list-style-type: none;
   padding: 10px;
   flex: 1;
@@ -46,7 +46,7 @@ header h1 {
 }
 
 .ulclas {
-  background-color: #c53636;
+  background-color: #ffffff;
   flex: 1;
   padding: 30px;
   display: flex;
@@ -57,7 +57,7 @@ header h1 {
 /* Estilos para el formulario de contacto */
 #contacto {
   padding: 50px;
-  background-color: #4780ea;
+  background-color: #b0b1b4;
   color: #f3f3f3;
 }
 
