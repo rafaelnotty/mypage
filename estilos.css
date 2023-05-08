@@ -36,10 +36,20 @@ header h1 {
 }
 
 .mitad {
+  list-style-type: none;
+  padding: 10px;
   flex: 1;
-  padding: 50px;
   display: flex;
   align-items: left;
+  justify-content: center;
+}
+
+.ulclas {
+  background-color: #f3f3f3;
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  align-items: right;
   justify-content: center;
 }
 
