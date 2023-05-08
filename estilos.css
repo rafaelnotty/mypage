@@ -29,13 +29,18 @@ header h1 {
   margin-bottom: 0;
 }
 
-section {
+#hyc {
+  background-color: #f3f3f3;
   display: flex;
+  height: 100vh;
 }
 
 .mitad {
   flex: 1;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilos para el formulario de contacto */
