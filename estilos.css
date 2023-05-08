@@ -10,7 +10,7 @@ header h1 {
 }
 
 /* Estilos para la sección de servicios */
-#services {
+#Proyectos {
   padding: 50px;
   background-color: #f3f3f3;
 }
@@ -27,6 +27,15 @@ header h1 {
 
 .service p {
   margin-bottom: 0;
+}
+
+section {
+  display: flex;
+}
+
+.mitad {
+  flex: 1;
+  padding: 10px;
 }
 
 /* Estilos para el formulario de contacto */
