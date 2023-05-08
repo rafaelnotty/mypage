@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 header {
-  background-color: #000000;
+  background-color: #484242;
   color: #ffffff;
   padding: 20px;
 }
@@ -12,11 +12,11 @@ header h1 {
 /* Estilos para la sección de servicios */
 #Proyectos {
   padding: 50px;
-  background-color: #f3f3f3e5e;
+  background-color: #f3f3f3;
 }
 
 .service {
-  background-color: #fff;
+  background-color: #f3f3f3;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -36,21 +36,12 @@ header h1 {
 }
 
 .mitad {
-  background-color: #f3f3f3;
+  background-color: #cfcdcd;
   list-style-type: none;
   padding: 10px;
   flex: 1;
   display: flex;
   align-items: left;
-  justify-content: center;
-}
-
-.ulclas {
-  background-color: #ffffff;
-  flex: 1;
-  padding: 30px;
-  display: flex;
-  align-items: right;
   justify-content: center;
 }
 
