@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="author" content="Rafael David Rincon Villamizar">
+  <meta name="description" content="Sitio web personal de Rafael David Rincon Villamizar, Magister en Ingeniería y Especialista en gestión de sistemas de Potencia">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafael David Rincon Villamizar</title>
+  <title>Rafael David Rincon Villamizar - Portafolio personal</title>
   <link rel="stylesheet" href="estilos.css">
   <script src="script.js"></script>
 </head>
-
 <body>
+  <!-- Encabezado de la página -->
   <header>
-    <div class="container">
-      <h1>Rafael David Rincon Villamizar</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#Proyectos">Experiencia en Proyectos +12 Años</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Experiencia en proyectos +12 años</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
+  <!-- Contenido principal -->
   <main>
+    <!-- Sección "Sobre mí" -->
     <section id="about">
-      <div class="container">
+      <article>
+        <h1>Rafael David Rincon Villamizar</h1>
         <h2>Sobre mí</h2>
         <p>Soy Magister en Ingeniería, Especialista en gestión de sistemas de Potencia, Ingeniero Eléctrico e Ingeniero en Telecomunicaciones con amplia experiencia como Lider de Proyectos, habilidades en todas las etapas de maduración, planeación, diseño, ejecución e interventoria de proyectos, hasta las fases de comisionamiento, pruebas y puesta en marcha. Comunicación asertiva para gestionar interesados, con experticia en el control de riesgos, y el manejo de las las dependencias, el flujo óptimo de trabajo integralmente. Amplios conocimientos en Lenguajes de Programación: Python, Javascript, software especializados de electricidad, comunicaciones, automatización industrial avanzada. Ciencia de Datos e Inteligencia Artificial</p>
-      </div>
+      </article>
     </section>
 
-    <section id="Proyectos">
-      <div class="container">
-        <h2>Proyectos</h2>
+    <!-- Sección "Proyectos" -->
+    <section id="projects">
+      <article>
+        <h2>Experiencia en proyectos</h2>
         <ul>
           <li>
             <h3>Proyectos de Infraestructura</h3>
@@ -41,56 +43,34 @@
           </li>
           <li>
             <h3>Planta PTAP El Cerro</h3>
-            <p>La Planta que abastece el servicio de Agua Potable a la Cartagena de 2 Millones de Habitantes. imagen..</p>
+            <p>La Planta que abastece el servicio de Agua Potable a la Cartagena de 2 Millones de Habitantes. <img src="imagen.jpg" alt="Imagen de la planta PTAP El Cerro"></p>
           </li>
           <li>
             <h3>Automatización Industrial 4ta Generación</h3>
-            <p>Experto en tecnologías de punta, en combinación con los sistemas eléctricos de Potencia, telemetría, sistemas SCADA/HMI, proyectos de infraestructura</p>
+            <p>Experto en tecnologías de punta, en combinación con los sistemas eléctricos de Potencia, telemetría, sistemas SCADA/HMI, proyectos de infraestructura. <img src="imagen.jpg" alt="Imagen de la planta PTAP El Cerro"></p>
           </li>
         </ul>
-      </div>
-    </section>
+      </article>
+    </section>   
 
     <section class="hyc">
-      <h2>Habilidades y Competencias</h2>
-      <div class="mitad">
-        <ul>
-          <li>Experto en Normas Técnicas</li>
-          <li>Metodologico</li>
-          <li>Perseverante</li>
-        </ul>
-      
-        <ul class="ulclas">
-          <li>Nivel de Ingles Intermedio Alto</li>
-          <li>Lenguajes de Programación</li>
-          <li>Interdisciplinario y Autodidacta</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact">
       <div class="container">
-        <h2>Contacto</h2>
-        <form id="contact-form">
-          <div>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div>
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <button type="submit">Enviar</button>
-        </form>
+        <h2>Habilidades y Competencias</h2>
+        <div class="skills">
+          <ul>
+            <li>Experto en Normas Técnicas</li>
+            <li>Metodológico</li>
+            <li>Perseverante</li>
+          </ul>
+    
+          <ul>
+            <li>Nivel de inglés Intermedio Alto</li>
+            <li>Lenguajes de Programación</li>
+            <li>Interdisciplinario y Autodidacta</li>
+          </ul>
+        </div>
       </div>
     </section>
-  </main>
-
-  <script src="script.js"></script>
-</body>
-
-</html>
+   </main
+  </body>
+</html>        
