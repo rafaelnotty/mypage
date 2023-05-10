@@ -49,6 +49,9 @@ header h1 {
 
 header nav {
   float: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header nav ul {
